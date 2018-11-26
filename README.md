@@ -1,7 +1,7 @@
 # WhereAreTheFish
 
 ## 1. Backscatter - remote sensing in the ocean
-<p><img align="right" width="400" height="1000" src="https://s3.amazonaws.com/assets.datacamp.com/production/project_547/img/4167340394_cc0b979fac_b_crop.jpg"> </p>
+
 <p>Reflections. No, I’m not talking about contemplating your existence within the Tidyverse or understanding
 what that spline did to your data. I’m talking about echoes. Specifically, sound echoes called “backscatter”. Marine scientists use backscatter to understand the distribution of organisms in the ocean.</p>
 <p>In this analysis, we are going to wrangle active acoustic data and plot the mean volume backscatter associated with fish with swim-bladders in relation to bathymetry (depth of the sea floor).</p>
@@ -39,7 +39,6 @@ head(bottom)
 
 
 ## 2. What is the "shelf break"?
-<p><img src="https://s3.amazonaws.com/assets.datacamp.com/production/project_547/img/map_trkln.png" alt="map_trkln"></p>
 <p>The red line in the map above is the ship's track across the shelf break in the Mid-Atlantic Bight. But what is the "shelf break"? The shelf break is the submerged edge of the continental shelf and it is characterized by a steep increase in slope gradients. It’s “The Big Drop-off”. In most marine ecosystems the shelf break is also a highly dynamic and productive area that provides a wide range of habitat for many marine species. The smallest phytoplankton to the largest marine mammals, sharks, seabirds, tunas, and sea turtles - they all utilize this area at some point in their life cycles. And, we’re going to play with some active acoustic data from this amazing region!</p>
 <p>But first, let's clean up the bathymetry (depth) data and get it ready for plotting.</p>
 
